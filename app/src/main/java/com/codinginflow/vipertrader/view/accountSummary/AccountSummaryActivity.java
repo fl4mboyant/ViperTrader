@@ -58,7 +58,7 @@ public class AccountSummaryActivity extends AppCompatActivity implements Account
 
     @Override
     public void fail() {
-        Toast.makeText(this, "Hesap Bilgileri Alınamadı", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hesap Bilgileri alınamadı", Toast.LENGTH_SHORT).show();
     }
 
 
