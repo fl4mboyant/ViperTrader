@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Lo
 
     @Override
     public void showValidationErrorMsg() {
-        Toast.makeText(this, "Giriş başarısız", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Giriş başarısız.", Toast.LENGTH_SHORT).show();
     }
 
     @Override
