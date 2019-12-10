@@ -57,6 +57,6 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Lo
 
     @Override
     public void loginFail() {
-        Toast.makeText(this, "Giriş başarısız", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Giriş başarısızz", Toast.LENGTH_SHORT).show();
     }
 }
