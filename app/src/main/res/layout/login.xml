@@ -21,6 +21,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="165dp"
+            android:layout_height="113dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[1]"
+            android:layout_marginTop="@android:dimen/notification_large_icon_width" />
+
         <EditText
             android:id="@+id/textViewUserName"
             android:layout_width="330dp"
@@ -59,6 +66,8 @@
             android:text="TAMAM"
             android:textColor="@color/colorInput"
             android:textSize="22sp" />
+
+
 
     </LinearLayout>
 
